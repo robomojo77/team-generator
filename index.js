@@ -1,4 +1,7 @@
+// Requires
+
 import inquirer from 'inquirer';
+
 const teamQuestions = () => {
     return inquirer.prompt([
         {
@@ -8,7 +11,7 @@ const teamQuestions = () => {
         },
         {
             type:
-            name: 'employee ID',
+            name: 'employee_ID',
             message:
         },
         {
