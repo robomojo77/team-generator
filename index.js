@@ -5,19 +5,19 @@ import inquirer from 'inquirer';
 const teamQuestions = () => {
     return inquirer.prompt([
         {
-            type:
+            type: 'input',
             name: 'name',
-            message:
+            message: 'Employee name?'
         },
         {
-            type:
+            type: 'input',
             name: 'employee_ID',
-            message:
+            message: 'Employee ID?'
         },
         {
-            type:
+            type: 'input',
             name: 'email',
-            message:
+            message: 'Employee email?'
         },
 
         // Class Specific Questions

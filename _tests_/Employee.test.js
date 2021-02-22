@@ -1,7 +1,7 @@
-const { TestScheduler } = require('jest');
-const Employee = require('../lib/Employee.js');
+const Employee = require('../lib/Employee.js').default;
+
 test('creates an employee object', () => {
-    const employee = new Employee('newEmployee');
+    Employee('newEmployee');
 
     expect(employee.name).toBe('newEmployee');
-})
+});
